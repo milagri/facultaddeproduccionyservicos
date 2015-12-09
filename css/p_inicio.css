@@ -83,7 +83,7 @@ body
 }
 #main-menu {
 	margin:auto;
-	width:90%;
+	width:82%;
 }
 ul, ol {
 	list-style:none;
@@ -227,10 +227,21 @@ ul, ol {
 }
 
 /*menu_pr*/
-.menu_pre {
+.menu_pre{
+	position: absolute;
+	padding-top: 20px;
+	top:0;
+	/*width: 100%;
+	max-width: 1000px;
+	box-shadow: 0px 4px 3px rgba(0,0,0,.5);*/
+}
+.menu_pre_fixed {
 	list-style: none;
-	width: 100%;
-	padding-top: 100px;
+	z-index:100;
+	width: auto;
+	position: fixed;
+	top:100px;
+	
 }
 .menu_pr {
 	border: 2px solid white;
@@ -257,6 +268,9 @@ ul, ol {
 	color: white;
 }
 
+.imagen_in img{
+	height: 25%;
+}
 /*imagenes pregrdo*/
 .img_pre {
 	width: 100%;
@@ -270,4 +284,8 @@ ul, ol {
 *.col-xs-8{
 	background: white;
 	padding: 2% 2%;
+}
+
+.img_port {
+	height: 10%;
 }
